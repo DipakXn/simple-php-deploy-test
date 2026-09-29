@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ledgergenie/public_html/test/
+    - /bin/cp -R index.php $DEPLOYPATH
+    - /bin/cp -R config.php $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
